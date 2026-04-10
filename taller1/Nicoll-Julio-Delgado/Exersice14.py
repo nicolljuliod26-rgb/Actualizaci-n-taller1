@@ -1,0 +1,5 @@
+talleres = float(input("Nota talleres (30%): "))
+parcial = float(input("Nota examen parcial (30%): "))
+final = float(input("Nota examen final (40%): "))
+definitiva = (talleres * 0.30) + (parcial * 0.30) + (final * 0.40)
+print(f"Nota definitiva: {definitiva:.2f}")
